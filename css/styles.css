@@ -1,6 +1,6 @@
 /* Estilos generales */
 body {
-    background-image: url('/el_mundo_de_rey.githuh.oi/imagenes/primerarey.jpg'); /* Reemplaza con la ruta correcta */
+    background-image: url('el_mundo_de_rey.githuh.oi/imagenes/primerarey.jpg'); /* Reemplaza con la ruta correcta */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
