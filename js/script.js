@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
             descripcion: "Figura de anime en pose épica.",
             precio: "$30.00",
             unidades: 5,
-            imagen: "el_mundo_de_rey.githuh.oi/imagenes/primerarey.jpg"
+            imagen: "imagen1.jpg"
         }
     ];
 
