@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Figuras</title>
+    <link rel="stylesheet" href="/css/galeria.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1>Galería de Figuras</h1>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenedor de la galería -->
+    <section class="galeria-container">
+        <h2 id="encabezado">Nuestra Colección</h2>
+        <div id="galeria" class="galeria"></div>
+    </section>
+
+    <!-- Modal para ampliar la imagen -->
+    <div id="modal">
+        <div class="modal-content">
+            <span class="cerrar">&times;</span> <!-- Botón de cerrar -->
+            <img class="modal-img" id="img-modal" src="" alt="Imagen del producto">
+            <div class="modal-info">
+                <h2 id="nombre-modal"></h2>
+                <p id="descripcion-modal"></p>
+                <p id="precio-modal"></p>
+                <p id="unidades-modal"></p>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 El Mundo de Rey - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
